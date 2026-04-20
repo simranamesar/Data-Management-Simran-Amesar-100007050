@@ -1,5 +1,7 @@
 ## Overview
 
+### Simran Amesar - 100007050
+
 This notebook demonstrates how to read and process metadata using Python.
 
 ### Execution
