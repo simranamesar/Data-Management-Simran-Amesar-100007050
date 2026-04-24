@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DataCite Metadata Schema 4.5
+  Dataset: Wine Quality
+  Source:  P. Cortez, A. Cerdeira, F. Almeida, T. Matos, J. Reis (2009)
+  DOI:     https://doi.org/10.24432/C56S3T
+-->
+<resource
+  xmlns="http://datacite.org/schema/kernel-4"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://datacite.org/schema/kernel-4
+    https://schema.datacite.org/meta/kernel-4/metadata.xsd">
+
+  <identifier identifierType="DOI">10.24432/C56S3T</identifier>
+
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Cortez, Paulo</creatorName>
+      <givenName>Paulo</givenName>
+      <familyName>Cortez</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">
+        https://orcid.org/0000-0002-9076-1912
+      </nameIdentifier>
+      <affiliation>University of Minho, Department of Information Systems</affiliation>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Cerdeira, António</creatorName>
+      <givenName>António</givenName>
+      <familyName>Cerdeira</familyName>
+      <affiliation>Viticulture Commission of the Vinho Verde Region (CVRVV), Portugal</affiliation>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Almeida, Fernando</creatorName>
+      <givenName>Fernando</givenName>
+      <familyName>Almeida</familyName>
+      <affiliation>Viticulture Commission of the Vinho Verde Region (CVRVV), Portugal</affiliation>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Matos, Telmo</creatorName>
+      <givenName>Telmo</givenName>
+      <familyName>Matos</familyName>
+      <affiliation>Viticulture Commission of the Vinho Verde Region (CVRVV), Portugal</affiliation>
+    </creator>
+
+  <titles>
+    <title xml:lang="en">Wine Quality</title>
+    <title xml:lang="en" titleType="AlternativeTitle">
+      Vinho Verde Red and White Wine Physicochemical Properties and Sensory Quality
+    </title>
+  </titles>
+
+  <publisher>UCI Machine Learning Repository</publisher>
+
+
+  <publicationYear>2009</publicationYear>
+
+
+  <dates>
+    <date dateType="Collected">2004/2007</date>       
+    <date dateType="Issued">2009-10-07</date>          
+    <date dateType="Updated">2023-01-01</date>         
+  </dates>
+
+
+  <language>en</language>
+
+
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="URL">
+      https://archive.ics.uci.edu/dataset/186/wine+quality
+    </alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="UCI Repository ID">186</alternateIdentifier>
+  </alternateIdentifiers>
+
+  <relatedIdentifiers>
+    <relatedIdentifier
+      relatedIdentifierType="DOI"
+      relationType="IsDescribedBy">
+      10.1016/j.dss.2009.05.016
+    </relatedIdentifier>
+    <!-- ^ Cortez et al. (2009) Decision Support Systems article -->
+  </relatedIdentifiers>
+
+  <formats>
+    <format>text/csv</format>
+  </formats>
+
+
+  <version>1</version>
+
+  <descriptions>
+    <description xml:lang="en" descriptionType="Abstract">
+      This dataset contains physicochemical and sensory quality data for
+      red and white variants of the Portuguese "Vinho Verde" wine. Two
+      CSV files are provided: 1,599 red wine samples and 4,898 white wine
+      samples, collected from May 2004 to February 2007 by the Viticulture
+      Commission of the Vinho Verde Region (CVRVV). Each instance records
+      11 physicochemical input variables (fixed acidity, volatile acidity,
+      citric acid, residual sugar, chlorides, free sulfur dioxide, total
+      sulfur dioxide, density, pH, sulphates, and alcohol) and one output
+      variable — a sensory quality score from 0 (very bad) to 10 (excellent)
+      based on the median rating of at least three certified wine experts.
+      For privacy and logistical reasons, no data about grape type, wine
+      brand, or selling price is included. The dataset supports both
+      regression and classification modelling tasks.
+    </description>
+  </descriptions>
+
+</resource>

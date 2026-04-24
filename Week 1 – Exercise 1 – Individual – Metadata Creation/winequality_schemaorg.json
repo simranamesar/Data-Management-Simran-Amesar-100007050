@@ -1,0 +1,191 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+
+  "name": "Wine Quality",
+
+  "alternateName": [
+    "Vinho Verde Wine Quality Dataset",
+    "UCI Wine Quality Dataset",
+    "winequality-red / winequality-white"
+  ],
+
+  "description": "Physicochemical and sensory quality data for red and white variants of the Portuguese 'Vinho Verde' wine. The dataset contains 1,599 red wine samples and 4,898 white wine samples collected from May 2004 to February 2007 by the Viticulture Commission of the Vinho Verde Region (CVRVV). Each instance records 11 physicochemical input variables (fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, and alcohol) and one sensory quality score (0–10) based on the median rating of at least three certified wine experts. Widely used for regression and classification benchmarking.",
+
+  "url": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.24432/C56S3T",
+      "url": "https://doi.org/10.24432/C56S3T"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "UCI Repository ID",
+      "value": "186"
+    }
+  ],
+
+  "sameAs": "https://doi.org/10.24432/C56S3T",
+
+  "version": "1",
+
+  "datePublished": "2009-10-07",
+
+  "dateModified": "2023-01-01",
+
+  "inLanguage": "en",
+
+  "keywords": [
+    "wine quality",
+    "Vinho Verde",
+    "physicochemical properties",
+    "sensory analysis",
+    "food science",
+    "machine learning",
+    "regression",
+    "classification",
+    "Portugal",
+    "oenology",
+    "benchmark dataset"
+  ],
+
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Paulo Cortez",
+      "givenName": "Paulo",
+      "familyName": "Cortez",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "https://orcid.org/0000-0002-9076-1912"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Minho",
+        "department": "Department of Information Systems",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PT",
+          "addressLocality": "Guimarães"
+        }
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "António Cerdeira",
+      "givenName": "António",
+      "familyName": "Cerdeira",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Viticulture Commission of the Vinho Verde Region (CVRVV)"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Fernando Almeida",
+      "givenName": "Fernando",
+      "familyName": "Almeida",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Viticulture Commission of the Vinho Verde Region (CVRVV)"
+      }
+    }
+    
+  ],
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "UCI Machine Learning Repository",
+    "url": "https://archive.ics.uci.edu/",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ROR",
+      "value": "https://ror.org/05rrcem69"
+    }
+  },
+
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+
+  "isAccessibleForFree": true,
+
+  "conditionsOfAccess": "Openly available; attribution required under CC BY 4.0.",
+
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Vinho Verde Region, Minho, Northwest Portugal",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "41.20 -8.85 42.15 -7.30"
+    }
+  },
+
+  "temporalCoverage": "2004-05/2007-02",
+
+  "measurementTechnique": [
+    "Physicochemical laboratory testing using OIV (International Organisation of Vine and Wine) standard methods",
+    "Blind sensory evaluation by a minimum of three certified sommeliers on a 0–10 integer quality scale",
+    "Median aggregation of expert sensory scores"
+  ],
+
+
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Red wine physicochemical and quality data",
+      "description": "winequality-red.csv — 1,599 instances of red Vinho Verde wine",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+      "contentSize": "82 KB"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "White wine physicochemical and quality data",
+      "description": "winequality-white.csv — 4,898 instances of white Vinho Verde wine",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+      "contentSize": "258 KB"
+    }
+  ],
+
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "Red Wine Quality (winequality-red.csv)",
+      "description": "1,599 instances of red Vinho Verde wine with 11 physicochemical features and 1 quality score.",
+      "numberOfItems": 1599
+    },
+    {
+      "@type": "Dataset",
+      "name": "White Wine Quality (winequality-white.csv)",
+      "description": "4,898 instances of white Vinho Verde wine with 11 physicochemical features and 1 quality score.",
+      "numberOfItems": 4898
+    }
+  ],
+
+  "isRelatedTo": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Modeling wine preferences by data mining from physicochemical properties",
+      "author": [
+        "Paulo Cortez", "António Cerdeira", "Fernando Almeida", "Telmo Matos", "José Reis"
+      ],
+      "datePublished": "2009",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Elsevier — Decision Support Systems"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1016/j.dss.2009.05.016"
+      },
+      "description": "The original journal article that describes the dataset, the data collection process, and initial machine learning experiments using neural networks, support vector machines, and multiple linear regression."
+    }
+  ]
+
+  
+}
