@@ -16,6 +16,6 @@ The Wine Quality dataset contains physicochemical and sensory evaluation data fo
 
 ##  Metadata Files
 
-### 1. `winequality_datacite.xml` — DataCite Metadata Schema 4.5
+**1. `winequality_datacite.xml` — DataCite Metadata Schema 4.5**
 
-### 2. `winequality_schemaorg.json` — Schema.org JSON-LD
+**2. `winequality_schemaorg.json` — Schema.org JSON-LD**
