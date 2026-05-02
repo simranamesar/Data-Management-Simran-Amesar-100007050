@@ -1,9 +1,9 @@
-# Air Quality Dataset 
+# Data Quality Check with a FAIR Dataset Using Tableau Prep
 
 ## Simran Amesar - 100007050
 
 ## Overview
-This dataset contains 2019 urban air quality data from the WHO Global Health Observatory, covering 50 cities across 30 countries. It includes annual average concentrations of PM2.5, PM10, and NO2.
+Air Quality dataset contains 2019 urban air quality data from the WHO Global Health Observatory, covering 50 cities across 30 countries. It includes annual average concentrations of PM2.5, PM10, and NO2.
 
 ## Cleaning Summary
 - Removed duplicate records (London, Berlin)
