@@ -1,0 +1,49 @@
+﻿WHO_Region,Country,City,Year,PM2_5_ug_m3,PM2_5_Missing,PM10_ug_m3,PM10_ug_m3 Missing,NO2_ug_m3,Population
+AMR,Brazil,São Paulo,2019,15.3,Available,31.2,Available,34.7,12325232
+EUR,Germany,Hamburg,2019,11.8,Available,17.9,Available,27.3,1841179
+AMR,Brazil,Rio de Janeiro,2019,18.7,Available,36.4,Available,29.4,6747815
+WPR,China,Shanghai,2019,35.2,Available,57.8,Available,44.1,24870895
+EUR,Netherlands,Amsterdam,2019,10.2,Available,17.8,Available,29.4,872680
+SEAR,India,Delhi,2019,98.6,Available,226,Available,53.4,32941309
+EUR,Italy,Rome,2019,16.4,Available,28.2,Available,39.7,2856133
+EUR,France,Paris,2019,14.2,Available,21.6,Available,31.8,2141000
+AMR,Canada,Vancouver,2019,5.9,Available,11.8,Available,18.7,675218
+AMR,Usa,Chicago,2019,8.4,Available,16.9,Available,26.4,2693976
+EUR,Russia,Moscow,2019,16.7,Available,28.4,Available,35.2,12506468
+SEAR,Thailand,Bangkok,2019,26.3,Available,48.4,Available,41.2,10539000
+EUR,Spain,Madrid,2019,9.8,Available,18.4,Available,40.6,3305408
+AMR,Canada,Toronto,2019,7.4,Available,14.2,Available,25.3,2731571
+AMR,Usa,Los Angeles,2019,11.2,Available,22.4,Available,32.1,3979576
+SEAR,Vietnam,Ho Chi Minh City,2019,28.4,Available,,Missing,38.4,9077158
+EUR,Poland,Warsaw,2019,22.7,Available,41.3,Available,35.8,1794166
+WPR,Australia,Melbourne,2019,5.2,Available,11.8,Available,18.9,5078000
+WPR,Australia,Sydney,2019,5.8,Available,12.6,Available,20.3,5312000
+EMR,Pakistan,Karachi,2019,75.2,Available,,Missing,46.3,16093786
+WPR,Japan,Tokyo,2019,11.7,Available,20.1,Available,22.4,13960000
+EMR,Pakistan,Lahore,2019,88.1,Available,178.3,Available,44.2,13095166
+SEAR,Bangladesh,Dhaka,2019,97.3,Available,203.4,Available,52.1,21005860
+AMR,Mexico,Mexico City,2019,20.3,Available,42.1,Available,51.3,9209944
+EUR,Germany,Munich,2019,13.1,Available,19.8,Available,30.5,1484226
+WPR,China,Shenzhen,2019,22.3,Available,43.6,Available,,13438202
+AMR,Argentina,Buenos Aires,2019,14.8,Available,28.6,Available,35.4,15594428
+AMR,Usa,New York,2019,6.9,Available,14.8,Available,28.7,8336817
+AFR,Nigeria,Lagos,2019,78.4,Available,163.2,Available,45.2,14862111
+AFR,Nigeria,Kano,2019,82.1,Available,,Missing,42.3,3828709
+EMR,Saudi Arabia,Riyadh,2019,102.4,Available,214.6,Available,33.2,7676654
+EMR,Iran,Tehran,2019,36.8,Available,72.4,Available,48.3,9259009
+EUR,Turkey,Istanbul,2019,25.6,Available,46.8,Available,40.3,15462452
+WPR,Indonesia,Jakarta,2019,39.2,Available,75.4,Available,43.1,10562000
+AFR,South Africa,Johannesburg,2019,33.4,Available,62.1,Available,38.4,5635127
+EUR,Sweden,Stockholm,2019,6.8,Available,12.4,Available,19.8,975551
+AMR,Colombia,Bogotá,2019,17.8,Available,33.4,Available,36.2,7743955
+EUR,Germany,Berlin,2019,12.4,Available,18.2,Available,28.1,3669491
+EUR,Uk,London,2019,10.8,Available,19.3,Available,30.2,8982000
+AFR,Kenya,Nairobi,2019,25.6,Available,48.2,Available,32.1,4922000
+SEAR,India,Mumbai,2019,45.3,Available,93.2,Available,41.2,20667656
+WPR,China,Beijing,2019,42.1,Available,68.4,Available,48.3,21893095
+AMR,Brazil,Brasília,2019,,Missing,,Missing,22.3,3015268
+EUR,Norway,Oslo,2019,7.2,Available,13.1,Available,20.4,693491
+WPR,Japan,Osaka,2019,13.2,Available,22.4,Available,25.6,2753862
+EMR,Egypt,Cairo,2019,92.3,Available,185.4,Available,51.2,20076000
+SEAR,India,Kolkata,2019,55.2,Available,,Missing,38.6,14974073
+WPR,Philippines,Manila,2019,18.4,Available,36.2,Available,35.7,1846513
